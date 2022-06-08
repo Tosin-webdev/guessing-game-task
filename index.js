@@ -1,10 +1,10 @@
 const generateRandomInteger = (min, max) => {
   let a = 2;
   let i;
-
+ prompt("what is your username");
   while ((i = Infinity)) {
     let randomNumber = Math.floor(min + Math.random() * (max - min + 1));
-    prompt("what is your username");
+   
     let prediction = prompt(
       "predict the generated number between the given range 1 - " + a
     );
